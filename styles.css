@@ -6,8 +6,45 @@ body {
 /* Layout
 ====================== */
 
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
 .header ul {
+  list-style: none;
   padding-inline-start: 0px;
+}
+
+.header ul li {
+  display: inline;
+}
+
+.hero {
+  display: flex;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-section-images {
+  display: flex;
+}
+
+.quote-source {
+  text-align: right;
+}
+
+.call-section {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer {
+  text-align: center;
 }
 
 /* Text and Color Formatting
