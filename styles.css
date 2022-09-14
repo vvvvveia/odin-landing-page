@@ -34,20 +34,30 @@ body {
 
 .hero-text-button,
 .call-section-button button {
+  font-family: inherit;
   font-size: 100%;
-  border-color: white;
-  border-width: 2px;
-  border-radius: 5px;
-  padding: 5px 12px;
+  border: 1px solid white;
+  border-radius: 12px;
+  padding: 8px 20px;
 }
 
 .info-section {
-  display: flex;
-  flex-direction: column;
+  text-align: center;
+  padding: 4% 10% 4% 10%;
 }
 
 .info-section-images {
   display: flex;
+  justify-content: space-around;
+}
+
+.info-section-images img {
+  border: 4px solid #3882f6;
+  border-radius: 12px;
+}
+
+.quote-section {
+  padding: 6% 15%;
 }
 
 .quote-source {
@@ -109,6 +119,12 @@ button.hero-text-button,
 .call-section button {
   background-color: #3882f6;
   color: #ffffff;
+}
+
+.info-section-title {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
 }
 
 .quote-section {
